@@ -28,9 +28,9 @@ function fly(robot) {
     bot.drone.ftrim();
     bot.drone.takeoff();
     //bot.drone.hover();
-    after(10*1000), function(){
+    after(10*1000, function(){
         bot.drone.left(0.05);
-    };
+    });
     after(12*1000, function() {
         bot.drone.left(0);
     });
