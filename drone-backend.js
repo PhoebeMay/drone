@@ -30,13 +30,13 @@ function fly(robot) {
     //bot.drone.hover();
     after(10*1000), function(){
         bot.drone.left(0.05);
-    }
+    };
     after(12*1000, function() {
         bot.drone.left(0);
     });
     after (13*1000, function(){
-        bot.drone.right(0.05)
-    })
+        bot.drone.right(0.05);
+    });
     after(15*1000, function() {
         bot.drone.right(0);
     });
